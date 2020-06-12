@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+}
+
+.Encabezado {
+    background: #085441;
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+}
+
+.Menu {
+    background: #085441;
+    font-family: 'Asap', sans-serif;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 70px;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 150px;
+    z-index: 100;
+}
+
+.logo {
+    padding: 0;
+    padding-top: 8px;
+    flex: none;
+    width: 100px;
+    height: 50px;
+}
+
+.Imagenlogo {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+.nav {
+    flex: 4 1 auto;
+    padding-left: 40px;
+}
+
+.nav a {
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 0 8px;
+    letter-spacing: 1px;
+}
+
+.nav a:hover {
+    color: white;
+}
+
+.nav u {
+    text-decoration: none;
+}
+
+.nav u:hover {
+    text-decoration: none;
+    border-bottom: 2.5px solid white;
+}
+
+.salir {
+    color: white;
+    flex: 1 1 auto;
+    padding-left: 40px;
+}
+
+.salir a {
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 0 8px;
+    letter-spacing: 1px;
+}
+
+.salir a:hover {
+    color: white;
+}
+
+.salir u {
+    text-decoration: none;
+}
+
+.salir u:hover {
+    text-decoration: none;
+    border-bottom: 2.5px solid white;
+}
+
+.container-all {
+    background-color: #fafcfb;
+    margin-top: 70px;
+    padding: 50px 20px;
+}
+
+.container-imagen {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.imagen {
+    width: 400px;
+    height: 400px;
+}
+
+.top {
+    text-align: center;
+}
+
+.top h1 {
+    font-weight: bold;
+}
+
+.container-tabla {
+    text-align: center;
+    padding: 0 30px;
+    padding-left: 100px;
+}
+
+.tabla {
+    text-align: center;
+    background-color: white;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.titulo {
+    background-color: #085441;
+    border-bottom: solid 5px #0f362d;
+    color: white;
+    font-size: 20px;
+    border: solid black 1px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.col-id {
+    width: 5%;
+}
+
+.col-name {
+    width: 10%;
+}
+
+.col-mail {
+    width: 10%;
+}
+
+.col-address {
+    width: 30%;
+}
+
+.col-idPro {
+    width: 5%;
+}
+
+.col-nomPro {
+    width: 10%;
+}
+
+.col-cant {
+    width: 5%;
+}
+
+.col-total {
+    width: 5%;
+}
+
+.col-fecha {
+    width: 5%;
+}
+
+.row {
+    border: solid black 1px;
+    margin: 2px;
+    padding: 10px 5px;
+    text-align: left;
+}
+
+.copy {
+    background: #085441;
+    color: white;
+    text-align: left;
+    width: 100%;
+    height: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}

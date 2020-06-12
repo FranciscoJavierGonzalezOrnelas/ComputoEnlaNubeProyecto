@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+}
+
+.Encabezado {
+    background: #085441;
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+}
+
+.Menu {
+    background: #085441;
+    font-family: 'Asap', sans-serif;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 70px;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 150px;
+    z-index: 100;
+}
+
+.logo {
+    padding: 0;
+    padding-top: 8px;
+    flex: none;
+    width: 100px;
+    height: 50px;
+}
+
+.Imagenlogo {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+.nav {
+    flex: 4 1 auto;
+    padding-left: 40px;
+}
+
+.nav a {
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 0 8px;
+    letter-spacing: 1px;
+}
+
+.nav a:hover {
+    color: white;
+}
+
+.nav u {
+    text-decoration: none;
+}
+
+.nav u:hover {
+    text-decoration: none;
+    border-bottom: 2.5px solid white;
+}
+
+.salir {
+    color: white;
+    flex: 1 1 auto;
+    padding-left: 40px;
+}
+
+.salir a {
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 0 8px;
+    letter-spacing: 1px;
+}
+
+.salir a:hover {
+    color: white;
+}
+
+.salir u {
+    text-decoration: none;
+}
+
+.salir u:hover {
+    text-decoration: none;
+    border-bottom: 2.5px solid white;
+}
+
+.container-all {
+    background-color: #fafcfb;
+    margin-top: 70px;
+    padding: 50px 20px;
+}
+
+.page {
+    background-color: #fafcfb;
+    margin-top: 700px;
+    padding: 50px 20px;
+}
+
+.top {
+    text-align: center;
+}
+
+.container-form {
+    width: 100%;
+    padding: 10px;
+}
+
+.formulario {
+    background-color: white;
+    border-radius: 10px;
+    color: #999;
+    font-size: 18px;
+    padding: 10px;
+    margin: 0 auto;
+    padding-left: 75px;
+    width: 500px;
+}
+
+.nota {
+    font-size: 14px;
+}
+
+input,
+textarea {
+    outline: none;
+    border: solid 1px #CCC;
+    padding: 5px;
+}
+
+.txt {
+    width: 350px;
+}
+
+.no {
+    width: 100px;
+}
+
+.btn {
+    width: 80px;
+}
+
+.btn-guardar {
+    border-radius: 3px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    background-color: blue;
+    color: white;
+    border: none;
+    height: 35px;
+}
+
+.btn-cancelar {
+    border-radius: 3px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    background-color: red;
+    color: white;
+    border: none;
+    height: 35px;
+}
+
+.container-tabla {
+    text-align: center;
+    padding: 0 30px;
+    padding-left: 100px;
+}
+
+.tabla {
+    text-align: center;
+    background-color: white;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.titulo {
+    background-color: #085441;
+    border-bottom: solid 5px #0f362d;
+    color: white;
+    font-size: 20px;
+    border: solid black 1px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.col-id {
+    width: 100px;
+}
+
+.col-tipo {
+    width: 100px;
+}
+
+.col-name {
+    width: 220px;
+}
+
+.col-precio {
+    width: 150px;
+}
+
+.col-stock {
+    width: 100px;
+}
+
+.col-descripcion {
+    width: 320px;
+}
+
+.col-imagen {
+    width: 250px;
+}
+
+.col-edit {
+    background-color: #fafcfb;
+    width: 70px;
+}
+
+.col-delete {
+    background-color: #fafcfb;
+    width: 90px;
+}
+
+.row {
+    text-align: center;
+    border: solid black 1px;
+    margin: 2px;
+    padding: 10px 5px;
+}
+
+.imagen {
+    width: 90px;
+    height: 90px;
+}
+
+.cont-btn-delete {
+    background-color: #fafcfb;
+    text-align: left;
+    width: 90px;
+    padding: 0;
+    margin: 0;
+    margin-right: 0;
+}
+
+.cont-btn-edit {
+    background-color: #fafcfb;
+    padding: 0;
+    margin: 0;
+}
+
+.btn-edit {
+    border-radius: 3px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 2px;
+    margin: 0;
+    width: 75px;
+    height: 25px;
+}
+
+.btn-delete {
+    border-radius: 3px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 0;
+    margin: 0;
+    width: 90px;
+    height: 25px;
+}
+
+.copy {
+    background: #085441;
+    color: white;
+    text-align: left;
+    width: 100%;
+    height: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}

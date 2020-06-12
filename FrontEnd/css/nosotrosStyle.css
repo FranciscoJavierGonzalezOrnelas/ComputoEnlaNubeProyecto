@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F9F9F9;
+    font-family: 'poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Encabezado {
+    background: #085441;
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+}
+
+.Menu {
+    background: #085441;
+    font-family: 'Asap', sans-serif;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 70px;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 0px;
+    z-index: 100;
+}
+
+.logo {
+    padding: 0;
+    padding-top: 8px;
+    flex: none;
+    width: 100px;
+    height: 50px;
+}
+
+.Imagenlogo {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+.nav {
+    flex: 4 1 auto;
+    padding-left: 40px;
+}
+
+.nav a {
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 0 8px;
+    letter-spacing: 1px;
+}
+
+.nav a:hover {
+    color: white;
+}
+
+.nav u {
+    text-decoration: none;
+}
+
+.nav u:hover {
+    text-decoration: none;
+    border-bottom: 2.5px solid white;
+}
+
+.salir {
+    color: white;
+    flex: 1 1 auto;
+    padding-left: 250px;
+}
+
+.salir a {
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 0 8px;
+    letter-spacing: 1px;
+}
+
+.salir a:hover {
+    color: white;
+}
+
+.salir u {
+    text-decoration: none;
+}
+
+.salir u:hover {
+    text-decoration: none;
+    border-bottom: 2.5px solid white;
+}
+
+.Titulo {
+    margin-top: 70px;
+    width: 100%;
+    position: relative;
+}
+
+.Titulo img {
+    filter: blur(12px);
+    width: 100%;
+}
+
+.Titulo section {
+    font-family: Arial;
+    position: absolute;
+    top: 35%;
+    text-align: center;
+    width: 100%;
+    font-size: 55px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.pagina {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 250px;
+    padding-right: 250px;
+    background: #f0efef;
+}
+
+.texto-principal {
+    text-align: justify;
+    font-size: 16px;
+    color: #1e2936;
+    margin-bottom: 50px;
+}
+
+.texto-principal h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.texto-principal hr {
+    margin-bottom: 20px;
+}
+
+.imagenNosotros {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.imagenNosotros img {
+    width: 300px;
+    height: 300px;
+}
+
+.copy {
+    background: #085441;
+    color: white;
+    text-align: left;
+    width: 100%;
+    height: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+@media all and (max-width: 1350px) {
+    .nav {
+        padding-left: 20px;
+    }
+    .nav a {
+        padding: 0 6px;
+        letter-spacing: 1px;
+    }
+    .pagina {
+        padding-left: 280px;
+        padding-right: 280px;
+    }
+    .texto-principal {
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width: 1300px) {
+    .nav {
+        padding-left: 5px;
+    }
+    .nav a {
+        font-size: 14px;
+    }
+    .Titulo section {
+        font-size: 46px;
+    }
+    .texto-principal {
+        font-size: 14px;
+    }
+    .texto-principal h1 {
+        font-size: 28px;
+    }
+    .imagenNosotros img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media all and (max-width: 1275px) {
+    .nav a {
+        font-size: 13px;
+    }
+    .botones {
+        width: 260px;
+    }
+    .buscar {
+        width: 220px;
+    }
+    #search {
+        width: 160px;
+    }
+    .carrito {
+        padding-left: 0;
+    }
+    .pagina {
+        padding-left: 230px;
+        padding-right: 230px;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .Menu {
+        flex-direction: column;
+        height: auto;
+        padding-left: 0;
+        padding-right: 0;
+        height: 130px;
+    }
+    .logo {
+        margin-top: 8px;
+        margin-bottom: 5px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+    .nav {
+        flex: none;
+        padding-left: 0;
+        margin-bottom: 5px;
+    }
+    .nav a {
+        font-size: 14px;
+        padding: 0 8px;
+    }
+    .botones {
+        flex: none;
+        width: 230px;
+        height: 35px;
+        margin-top: 2px;
+        padding: 2px;
+    }
+    .buscar {
+        flex: none;
+        width: 180px;
+        height: 30px;
+        margin-right: 4px;
+        padding: 5px 6px;
+    }
+    #search {
+        width: 140px;
+    }
+    .carrito {
+        width: auto;
+        height: auto;
+        padding: 5px 5px;
+    }
+    .Titulo {
+        margin-top: 130px;
+    }
+    .Titulo section {
+        font-size: 40px;
+    }
+    .pagina {
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+    .texto-principal h1 {
+        font-size: 26px;
+    }
+    .imagenNosotros img {
+        width: 200px;
+        height: 200px;
+    }
+    .social-texto {
+        letter-spacing: 1px;
+    }
+    .metodos {
+        font-size: 15px;
+    }
+    .pago {
+        width: 280px;
+        height: 28px;
+    }
+    .copy {
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .nav a {
+        font-size: 12px;
+    }
+    .Titulo section {
+        font-size: 34px;
+    }
+    .pagina {
+        padding-left: 140px;
+        padding-right: 140px;
+    }
+    .texto-principal h1 {
+        font-size: 22px;
+    }
+    .imagenNosotros img {
+        width: 200px;
+        height: 200px;
+    }
+    .social-texto {
+        text-align: left;
+        font-size: 14px;
+    }
+    .metodos {
+        font-size: 12px;
+        width: 150px;
+    }
+    .pago {
+        width: 230px;
+        height: 23px;
+    }
+    .copy {
+        font-size: 12px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .Menu {
+        flex-direction: column;
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 120px;
+    }
+    .logo {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        width: 80px;
+        height: 35px;
+    }
+    .Imagenlogo {
+        width: 80px;
+        height: 30px;
+    }
+    .nav {
+        flex: none;
+        flex-flow: row;
+        text-align: center;
+        margin-top: 0;
+        height: 20px;
+        padding-left: 2px;
+        padding-right: 2px;
+        line-height: 15px;
+    }
+    .nav a {
+        text-align: center;
+        color: white;
+        font-size: 10px;
+        letter-spacing: 0;
+        padding: 0 5px;
+    }
+    .nav a:hover {
+        line-height: 15px;
+    }
+    .Titulo {
+        margin-top: 120px;
+    }
+    .Titulo section {
+        font-size: 24px;
+    }
+    .imagenNosotros img {
+        width: 100px;
+        height: 100px;
+    }
+    .pagina {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .texto-principal {
+        font-size: 12px;
+    }
+    .texto-principal h1 {
+        font-size: 20px;
+    }
+    .info {
+        flex-flow: column;
+    }
+    .social-texto {
+        font-size: 12px;
+    }
+    .metodos {
+        width: 100%;
+        height: 25px;
+        text-align: left;
+        padding-left: 8px;
+    }
+    .pagos {
+        width: 100%;
+    }
+    .pago {
+        width: 300px;
+        height: 30px;
+    }
+    .copy {
+        text-align: left;
+        width: 100%;
+    }
+}
